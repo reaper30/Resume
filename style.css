@@ -1,0 +1,205 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+body {
+  background: #F4F6F7;
+  color: #0f141e;
+  /* font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; */
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: lighter;  /*Может сделать буквы жирным, тонким или обычным*/
+  /* text-decoration: line-through; */
+  font-style: normal; /*Может буквы под углом или прямые */
+  /* letter-spacing: 2px;*/ /*Расстояние между буквами */
+  /* word-spacing: 1px; */ /*Расстояние между словами*/
+}
+
+img {
+  border-radius: 20px;
+  margin-right: 10px;
+  width: 30%;
+  height: auto;
+}
+
+/* Display */
+
+.info {
+  display: flex;
+}
+
+.block-info {
+  display: inline-block;
+}
+
+.container {
+  max-width: 900px;
+  margin-left: 50px;
+}
+
+.form-group label{
+  display: block;
+  font-size: 14px;
+  color: #96998f;
+  }
+
+.form-row .form-group {
+  display: inline-block;
+  margin-right: 20px;
+  width: 50%;
+}
+
+@media (max-width: 650px) {
+  .form-row {
+    display: block;
+  }
+
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.form-row, .form-group:last-child {
+  margin-right: 0;
+}
+
+.form-group input, /*Офромление полей ввода*/
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding:15px 0 15px ;
+  outline: none;
+  font-family: inherit;
+}
+/* Отступ */
+
+.card {
+  padding: 10px;
+  /* background: #ddd; */
+}
+
+.card p {
+  font-size: 17px;
+  opacity: 0.5;
+
+}
+
+/* Borders */
+
+.social {
+  border: 2px solid rgb(35, 148, 185);
+  border-radius: 10px;
+  background: #D5DBDB;
+  padding: 10px;
+}
+
+.first {
+  background: #00FFFF;
+  /* border: 2px solid blue; */
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.first ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.second {
+  background: #00FFFF;
+  /* border: 2px solid blue; */
+  border-radius: 10px ;
+  margin-top: 20px;
+}
+
+.threeth {
+  background: #00FFFF;
+  /* border: 2px solid blue; */
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.threeth ul {
+  list-style: none;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+/* Ссылки */
+
+a {
+  color: rgb(131, 4, 250);
+  text-decoration: none;
+}
+
+a:hover {  /* Анимации при наведении*/
+  font-size: 20px;
+  transition: .1s;
+  /* text-decoration: underline; */
+}
+
+a:active { /*Анимация при удержании мышкой*/
+  color: #21618C ;
+  /* background: #D5DBDB; */
+  /* color: #0f141e; */
+}
+
+.btn {
+  cursor: pointer;
+  background: #0f141e;
+  color: #00FFFF;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn:hover {
+  /* transition: 0.2s; */ /*Расширение кнопки при наведении показалось мне несуразной вещью*/
+  /* padding: 13px; */
+  background: #D5DBDB;
+  color: #0f141e;
+  /* opacity: 0.5; */
+}
+
+/* Таблица */
+
+.table {
+  width: 100%;
+}
+
+.table tbody td {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.table tbody td:nth-child(3) {
+  color: #96998f;
+}
+
+.table tbody td:nth-child(even) {
+  color: #96998f;
+}
+
+.form h2{
+  text-align: center;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+

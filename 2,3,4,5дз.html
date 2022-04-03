@@ -4,79 +4,114 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="01_selectors.css"> -->
+  <!-- <link rel="stylesheet" href="02_fonts.css"> -->
+  <!-- <link rel="stylesheet" href="03_colors.css"> -->
+  <!-- <link rel="stylesheet" href="04_borders.css"> -->
+  <link rel="stylesheet" href="style.css">
   <title>Практическое занятие №2</title>
+
 </head>
 <body>
-  <h1>Ильгиз Бурганов</h1>
-  <img src="https://sun9-76.userapi.com/impf/w0tnjGnhLJpUHq0CeJoGNrhAzAbhpZFk1_NVBA/aFMI2qbH89Q.jpg?size=1620x2160&quality=95&sign=f8fbf903b48bae30ee142a9d2ceb1500&type=album" width="150">
-  
-  <p>Студент<em>( еще чего напишшь)</em> первого курса строительного факультета, увлекаюсь <strong>чтением литературы</strong> и программированием)) Не <strong>Nword</strong> и даже не трансNword. Фанат патриарха Кирилла</p>
+  <div class="container">
+    
+    <div class="info">
 
-  <h4>Список социальных сетей:</h4>
-  <a href="https://www.instagram.com/" target="_blanc">Instagram |</a>
-  <a target="_blanc" href="https://web.telegram.org/k/">Telegram |</a>
-  <a target="_blanc" href="https://www.youtube.com/">Youtube |</a>
-  
-  <h4>Мои хобби:</h4>
-  <ul>
-    <li>Чтение</li>
-    <li>Программирование</li>
-  </ul>
-  <table border="1">
-    <thead>
-      <tr>
-        <td>Название</td>
-        <td>Должность</td>
-        <td>Год</td>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>LPTracker</td>
-        <td>Fronted</td>
-        <td>2015-2016</td>
-      </tr>
-      <tr>
-        <td>EPAM</td>
-        <td>Software Engineer</td>
-        <td>2016-2017</td>
+        <img src="https://sun9-76.userapi.com/impf/w0tnjGnhLJpUHq0CeJoGNrhAzAbhpZFk1_NVBA/aFMI2qbH89Q.jpg?size=1620x2160&quality=95&sign=f8fbf903b48bae30ee142a9d2ceb1500&type=album" width="150">
+         
+      <div class="block-info">
 
-      </tr>
-      <tr>
-        <td>Software Outsourcing Services</td>
-        <td>Senior 1Fronted</td>
-        <td>2017-2019</td>
-      </tr>
-      <tr>
-        <td>Youtube</td>
-        <td>Blogger</td>
-        <td>2019-сейчас</td>
-      </tr>
-      <tr>
-        <td>Result School</td>
-        <td>CEO</td>
-        <td>2021-сейчас</td>
-      </tr>
-    </tbody>
-  </table>
+        <h1>Ильгиз Бурганов</h1>
+        <div class="card">
+          <p>Студент<em>(давай-давай, еще чего интересного напиешшь)</em> первого курса строительного факультета, а моим небольшим увлечением могу назвать <strong>чтение литературы и программирование</strong>. Закрыл недавно первую сессию, радости не чувствую, наверное лишь потому, что затянул с её сдачей.Боже, дай мне сил для инженерной графики. На этом небольшой очерк и заканчивается. Смотрите далее</p>
+        </div>
+        <div class="social">
+          <h4>Список социальных сетей:</h4>
+          <a target="_blanc" href="https://www.instagram.com/">Instagram |</a>
+          <a target="_blanc" href="https://web.telegram.org/k/">Telegram |</a>
+          <a target="_blanc" href="https://www.youtube.com/">Youtube |</a>
+        </div>
+      </div>
+    </div>
+    <div class="card first"> 
+      <h4>Мои хобби:</h4>
+      <ul>
+        <li>Чтение</li>
+        <li>Программирование</li>
+      </ul>
+    </div>
 
-  <h4>Связаться со мной</h4>
-  <div>
-    <label for="text">Ваше имя</label>
-    <input type="text" placeholder="Введите имя">
-  </div>
-  <div>
-    <label for="email">Ваш email</label>
-    <input type="email" placeholder="Введите email">
-  </div>
-  <div>
-    <label for="message">Ваше сообщение:</label><br>
-    <textarea cols="20" rows="4"> placeholder="Введите сообщение..." ></textarea>
-  </div>
-  <div>
-    <!-- <input type="submit" value="Отправить!"> -->
-    <button type="submit">Отправить!</button>
-  </div>
+    <div class="card second">
+      <h3>Опыт работы</h3>
+      <table  class="table">
+        <thead>
+        </thead>
+        <tbody>
+          <tr>
+            <td>LPTracker</td>
+            <td>Fronted</td>
+            <td>2015-2016</td>
+          </tr>
+          <tr>
+            <td>EPAM</td>
+            <td>Software Engineer</td>
+            <td>2016-2017</td>
 
+          </tr>
+          <tr>
+            <td>Software Outsourcing Services</td>
+            <td>Senior 1Fronted</td>
+            <td>2017-2019</td>
+          </tr>
+          <tr>
+            <td>Youtube</td>
+            <td>Blogger</td>
+            <td>2019-сейчас</td>
+          </tr>
+          <tr>
+            <td>Result School</td>
+            <td>CEO</td>
+            <td>2021-сейчас</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card threeth">
+      <h3>Мои курсы</h3>
+      <ul>
+        <li><a href="https://vladilen.ru/junior">Получение профессии Frontend Разработчика</a></li> <br>
+        <li><a href="https://vladilen.ru/courses">Все курсы</a></li>
+      </ul>
+    </div>
+    <hr>
+
+    
+    <form action="" class="form">
+      <h2>Связаться со мной</h2>
+
+      <div class="form-row">
+
+        <div class="form-group">
+          <label for="text">Ваше имя</label>
+          <input type="text" placeholder="Введите имя">
+        </div>
+        <div class="form-group">
+          <label for="email">Ваш email</label>
+          <input type="email" placeholder="Введите email">
+        </div>
+      </div>
+
+      <div class="form-group">
+
+        <label for="message">Ваше сообщение:</label>
+        <textarea cols="20" rows="4"  placeholder="Введите сообщение..." ></textarea>
+      </div>
+      <div>
+        <!-- <input type="submit" value="Отправить!"> -->
+         <button type="submit" class="btn">Отправить!</button>
+      </div>
+    </form>
+  </div>
 </body>
 </html>
